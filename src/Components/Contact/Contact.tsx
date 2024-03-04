@@ -72,7 +72,7 @@ const Contact = () => {
       <h4 data-aos="fade-up"  data-aos-duration="1500" className="text-center text-3xl font-semibold my-10">
         Contact <span className="text-primary">Me</span>
       </h4>
-      <div data-aos="fade-up"  data-aos-duration="3000" className="flex flex-col md:flex-row gap-5 max-w-7xl mx-auto justify-between items-center  p-3 md:p-10 shadow-xl rounded-md">
+      <div data-aos="fade-up"  data-aos-duration="3c000" className="flex flex-col md:flex-row gap-5 max-w-7xl mx-auto justify-between items-center  p-3 md:p-10 shadow-xl rounded-md">
         {/* address */}
         <div className="flex-1 space-y-4 text-center md:text-start">
           {addressData.map((data) => (
