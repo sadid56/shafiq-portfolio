@@ -34,11 +34,11 @@ const Navber = () => {
           ? { backdropFilter: "blur(50px)" }
           : { backgroundColor: "transparent" }
       }
-      className={` w-full fixed top-0 z-50  transition-all ease-in duration-500  ${sroll ? "bg-slate-900 py-3" : "bg-white py-2"}`}>
+      className={` w-full fixed top-0 z-50  transition-all ease-in duration-500  ${sroll ? "bg-slate-900 py-3 text-white" : "bg-white py-2 text-white"}`}>
       <div className="flex px-5 justify-between items-center   max-w-6xl mx-auto  ">
         {/* name */}
         <div className="w-[120px] uppercase">
-          <h3 className="logo">S<span className={`${sroll ? "text-white" : "text-black"}`}>hafiq</span></h3>
+          <h3 className="logo text-white">S<span>hafiq</span></h3>
         </div>
         {/* ul content */}
         <ul
@@ -46,7 +46,7 @@ const Navber = () => {
             isToggle
               ? "flex-col absolute md:block top-0 left-0 min-h-screen bg-slate-900  md:bg-transparent w-[70%] pt-14  rounded-l-sm shadow-2xl "
               : "hidden md:flex"
-          } items-center gap-7 ${sroll ? "md:text-white text-white" : "md:text-black text-slate-300"}`}>
+          } items-center gap-7 `}>
           <li>
             <ScrollLink
             onClick={()=>setIsToggle(false)}
@@ -108,7 +108,7 @@ const Navber = () => {
           </li>
         </ul>
         <button
-          className={`md:hidden text-3xl transition-all ease-in duration-300 z-50 ${sroll ? "text-white" : "text-black"}`}
+          className={`md:hidden text-3xl transition-all ease-in duration-300 z-50 text-white`}
           onClick={() => setIsToggle(!isToggle)}>
           {isToggle ? <IoMdClose /> : <FiAlignJustify />}
         </button>
