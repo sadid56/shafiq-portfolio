@@ -8,12 +8,13 @@
 @tailwind utilities;
 
 .logo {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   border: 2px solid blue;
   border-top: transparent;
   border-right: transparent;
   padding: 5px;
+  
 }
 .logo::first-letter {
   color: rgb(236, 15, 37);

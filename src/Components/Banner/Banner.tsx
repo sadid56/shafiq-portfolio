@@ -11,22 +11,28 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Banner = () => {
-    useEffect(() => {
-        Aos.init({
-          duration: 500,
-        });
-      }, []);
+  useEffect(() => {
+    Aos.init({
+      duration: 500,
+    });
+  }, []);
   return (
     <header className="background p-5">
       <div className="flex flex-col-reverse md:flex-row items-center h-[95vh] md:h-[100vh] max-w-6xl mx-auto justify-between">
         <div className="space-y-5">
-          <h3  data-aos="fade-right"  data-aos-duration="1000" className="text-4xl font-semibold">
+          <h3
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="text-4xl font-semibold">
             I'am <span className="text-primary">Shafiq,</span>
           </h3>
-          <h1 data-aos="fade-right"  data-aos-duration="2000" className=" text-3xl md:text-5xl font-bold text-">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            className=" text-3xl md:text-5xl font-bold text-">
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={["Bangladesh Army.", "Bangladesh Protector.", "Servival."]}
+              words={["Bangladesh Army.", "Designation: NCO", "Core of Enginears."]}
               loop={Infinity}
               cursor
               cursorStyle="|"
@@ -37,20 +43,26 @@ const Banner = () => {
             />
           </h1>
 
-          <p data-aos="fade-right"  data-aos-duration="2500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo
-            culpa atque labore magnam perferendis impedit dolor, reiciendis quis
-            fugit temporibus omnis nostrum quia expedita ullam cupiditate error
-            dicta inventore!
+          <p data-aos="fade-right" data-aos-duration="2500">
+            As a member of the Bangladesh Army, My life is dedicated to serving
+            and protecting our country and its people. I undergo rigorous
+            training, display courage in the face of danger, and uphold values
+            of honor and duty. our sacrifices contribute to safeguarding
+            national security and fostering peace within the region.
           </p>
-          <button data-aos="fade-right"  data-aos-duration="3000" className="btn">
+          <button
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            className="btn">
             <span>Lest's Connect</span>
             <span>
               <IoShareSocial />
             </span>
             <ul>
               <li>
-                <a href="">
+                <a
+                  href="https://www.facebook.com/tuhin.shafi.79"
+                  target="_blank">
                   <FaFacebook className="text-2xl" />
                 </a>
               </li>
@@ -87,8 +99,11 @@ const Banner = () => {
             </ul>
           </button>
         </div>
-        <div className="" data-aos="fade-up"  data-aos-duration="2000">
-          <div className="md:w-[600px] relative pt-20 md:pt-10 lg:pt-0">
+        <div
+          className="pt-24 md:pt-10 lg:pt-0"
+          data-aos="fade-up"
+          data-aos-duration="2000">
+          <div className="md:w-[600px] relative ">
             <Lottie animationData={animatio} />
             <Image
               src={img}

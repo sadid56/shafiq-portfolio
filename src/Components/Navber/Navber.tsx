@@ -37,7 +37,7 @@ const Navber = () => {
       className={` w-full fixed top-0 z-50  transition-all ease-in duration-500  ${sroll ? "bg-slate-900 py-3" : "bg-white py-2"}`}>
       <div className="flex px-5 justify-between items-center   max-w-6xl mx-auto  ">
         {/* name */}
-        <div className="w-[120px]">
+        <div className="w-[120px] uppercase">
           <h3 className="logo">S<span className={`${sroll ? "text-white" : "text-black"}`}>hafiq</span></h3>
         </div>
         {/* ul content */}

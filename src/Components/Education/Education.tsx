@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -32,14 +33,10 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10 border rounded-md shadow-md p-3">
-              <time className="font-mono italic">1984</time>
-              <div className="text-lg font-black">SSC</div>
-              The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-              original Apple Macintosh personal computer. It played a pivotal
-              role in establishing desktop publishing as a general office
-              function. The motherboard, a 9 in (23 cm) CRT monitor, and a
-              floppy drive were housed in a beige case with integrated carrying
-              handle; it came with a keyboard and single-button mouse.
+              <time className="font-mono italic">2011</time>
+              <div className="text-lg font-black">Secondary School Certificate</div>
+             
+In 2011, I successfully passed the Secondary School Certificate (SSC) examination, marking a significant milestone in my educational journey. This achievement reflects my dedication to academic excellence and sets the foundation for future educational pursuits and career endeavors.
             </div>
             <hr />
           </li>
@@ -59,12 +56,11 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-end mb-10 border rounded-md shadow-md p-3">
-              <time className="font-mono italic">1998</time>
-              <div className="text-lg font-black">HSC</div>
-              iMac is a family of all-in-one Mac desktop computers designed and
-              built by Apple Inc. It has been the primary part of consumer
-              desktop offerings since its debut in August 1998, and has evolved
-              through seven distinct forms
+              <time className="font-mono italic">2013</time>
+              <div className="text-lg font-black">Higher Secondary Certificate</div>
+              <h2 className="font-semibold">GPA: 4.17</h2>
+             
+In 2013, I successfully completed the Higher Secondary Certificate (HSC) examination, marking a pivotal moment in my academic journey. This achievement demonstrates my commitment to learning and signifies my readiness for higher education or entry into the professional world. It lays the groundwork for future aspirations and endeavors.
             </div>
             <hr />
           </li>
@@ -83,14 +79,10 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10 border rounded-md shadow-md p-3">
-              <time className="font-mono italic">1984</time>
-              <div className="text-lg font-black">SSC</div>
-              The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-              original Apple Macintosh personal computer. It played a pivotal
-              role in establishing desktop publishing as a general office
-              function. The motherboard, a 9 in (23 cm) CRT monitor, and a
-              floppy drive were housed in a beige case with integrated carrying
-              handle; it came with a keyboard and single-button mouse.
+              <time className="font-mono italic">2017</time>
+              <div className="text-lg font-black">Bacherlor of Social Science (Pass).</div>
+              <h1 className="font-semibold">CGPA: 2.61</h1>
+              Obtaining a Bachelor of Social Science degree has equipped me with a deep understanding of human behavior and societal dynamics. Through diverse coursework, I've gained insights into key social issues and developed critical thinking skills to analyze and address them effectively. This qualification prepares me for a wide range of careers in fields such as social work, public policy, and community development.
             </div>
             <hr />
           </li>
