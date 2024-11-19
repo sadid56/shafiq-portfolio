@@ -26,7 +26,10 @@ const GalleryApi = () => {
         img10,
         img11,
         img12,
-        img13
+        img13,
+        img13,
+        img13,
+        img13,
      ]
     return [api]
 };

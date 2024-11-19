@@ -10,7 +10,7 @@
 .logo {
   font-size: 22px;
   font-weight: 700;
-  border: 2px solid blue;
+  border: 2px solid  #0ea5e9;
   border-top: transparent;
   border-right: transparent;
   padding: 5px;
@@ -139,20 +139,20 @@
 
 
 .active, .homeActive{
-  border-bottom: 2px solid #e00549;
+  border-bottom: 2px solid   #0ea5e9;
   
 }
 
 .active, .homeActive {
-color: #e00549 !important; /* Set your desired active color */
+color:  #0ea5e9 !important; /* Set your desired active color */
 }
 .active:hover{
   border-bottom: 2px solid transparent;
-  color: #e00549;
+  color:  #0ea5e9;
 }
 .homeActive:hover{
   border-bottom: 2px solid transparent;
-  color: #e00549;
+  color:  #0ea5e9;
 }
 
 

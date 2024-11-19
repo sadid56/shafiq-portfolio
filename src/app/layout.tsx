@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google"; // Import Outfit font
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ["latin"] });
+// Configure the Outfit font
+const outfit = Outfit({ 
+  subsets: ["latin"], 
+  weight: ["400", "700"] // Add font weights as needed
+});
 
 export const metadata: Metadata = {
   title: "Shafiq",
@@ -17,10 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Toaster/>
+      <body className={outfit.className}> {/* Apply Outfit font */}
+        <Toaster />
         {children}
-        </body>
+      </body>
     </html>
   );
 }
