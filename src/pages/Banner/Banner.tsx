@@ -1,7 +1,7 @@
 import "aos/dist/aos.css";
 import { Spotlight } from "@/components/ui/SpotLigth";
 import { FlipWords } from "@/components/ui/FlipWords";
-import { BannerGlob } from "./BannerGlob";
+import BannerGlob from "./BannerGlob";
 const Banner = () => {
   // const videoRef = useRef(null);
   const words = ["Bangladesh Army.", "Designation: NCO", "Core of Enginears."];
@@ -29,9 +29,9 @@ const Banner = () => {
         Disciplined and courageous, embodying leadership, resilience, and loyalty. Committed to serving the nation with honor, maintaining physical and mental strength, and upholding the core values of dedication, teamwork, and integrity.
         </p>
       </div>
-    
+
       <BannerGlob/>
-  
+
     </header>
   );
 };

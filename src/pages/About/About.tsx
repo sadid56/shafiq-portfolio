@@ -13,6 +13,7 @@ import img10 from "../../Assets/images/img10.jpg";
 import img11 from "../../Assets/images/img11.jpg";
 import img12 from "../../Assets/images/img12.jpg";
 import img13 from "../../Assets/images/img13.jpg";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -32,9 +33,14 @@ const AboutMe = () => {
             leadership, and the unwavering pursuit of excellence in every
             endeavor.
           </p>
-          <button className="bg-sky-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-sky-600 active:scale-95">
-            Connect Me
-          </button>
+          <Link
+            href={"https://www.facebook.com/tuhin.shafi.79"}
+            target="_blank"
+          >
+            <button className="bg-sky-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-sky-600 active:scale-95">
+              Connect Me
+            </button>
+          </Link>
         </div>
         <ShuffleGrid />
       </div>

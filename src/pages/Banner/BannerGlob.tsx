@@ -3,11 +3,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
-const World = dynamic(() => import("../../components/ui/Glob").then((m) => m.World), {
-  ssr: false,
-});
+const World = dynamic(
+  () => import("../../components/ui/Glob").then((m) => m.World),
+  {
+    ssr: false,
+  }
+);
 
-export function BannerGlob() {
+function BannerGlob() {
   const globeConfig = {
     pointSize: 4,
     globeColor: "#062056",
@@ -397,7 +400,6 @@ export function BannerGlob() {
   return (
     <div className="flex flex-row items-center justify-center py-0 md:py-20  h-[370px] md:h-auto relative w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full  md:h-[90rem] px-4">
-
         <div className=" h-40  pointer-events-none select-none z-40" />
         <div className="absolute w-full bottom-28 h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
@@ -406,3 +408,5 @@ export function BannerGlob() {
     </div>
   );
 }
+
+export default BannerGlob;
