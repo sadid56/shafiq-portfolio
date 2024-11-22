@@ -4,6 +4,7 @@ import { FlipWords } from "@/components/ui/FlipWords";
 import BannerGlob from "./BannerGlob";
 const Banner = () => {
   // const videoRef = useRef(null);
+  // --
   const words = ["Bangladesh Army.", "Designation: NCO", "Core of Enginears."];
 
   // useEffect(() => {
